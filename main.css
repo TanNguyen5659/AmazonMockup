@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+}
+#forgot{
+    display: inline;
+    float: right;
+    text-decoration: none;
+}
+
+#Password{
+    display: inline;
+    text-decoration: none;
+}
+.form-control{
+  
+}
+#signin {
+    background-color:#f0c14b;
+    border: 1px solid black;
+}
+
+#link{
+    text-decoration: none;
+}
+
+.lines::before  {
+    content: " ";
+  
+    height: 2px;
+    width: 75px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: gray;
+}
+
+.lines{
+    position: relative;
+    max-width: 500px;
+
+    text-align: center;
+}
+.lines::after{
+    content: " ";
+    height: 2px;
+    width: 75px;
+    background: gray;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+#create {
+    border: 1px solid gray;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+h6{
+    font-weight: 800;
+}
